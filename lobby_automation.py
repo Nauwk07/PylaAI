@@ -62,6 +62,10 @@ class LobbyAutomation:
         brawler = str(brawler).lower().strip()
         for symbol in [' ', '-', '.', "&"]:
             brawler = brawler.replace(symbol, "")
+        # names.json holds the real name: searching "rt" returns Mortis first,
+        # searching "r-t" does not.
+        brawler = next((name for name in self.all_brawlers_names
+                        if name.replace("-", "") == brawler), brawler)
 
         x, y = load_toml_as_dict("cfg/buttons_config.toml")["brawlers_menu"]
         self.window_controller.click(x, y, already_include_ratio=False)

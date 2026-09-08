@@ -60,7 +60,7 @@
   "chester": ["darkchester", "lokichester", "woodspiritchester", "moonguardianchester"],
   "gray": ["detectivegray", "detectivenoirgray", "runawaygray"],
   "mandy": ["hanbokmandy", "magmamandy", "mcmandy", "maliciousmandy"],
-  "rt": ["crimsonrt", "patrolrt", "poseidonrt"],
+  "r-t": ["crimsonrt", "patrolrt", "poseidonrt"],
   "willow": ["axlwillow", "demonwillow", "scorpionwillow", "gondolierawillow", "spellboundwillow", "loveisblindwillow", "swampwillow", "obsessionwillow"],
   "maisie": ["junglequeenmaisie", "techmaisie"],
   "hank": ["rodeohank", "sharktankhank", "moonguardianhank"],
